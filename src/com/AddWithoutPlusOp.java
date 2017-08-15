@@ -3,7 +3,7 @@ package com;
 public class AddWithoutPlusOp {
 
 	public static int add(int a, int b) {
-		return a - ~b - 1;
+		return a - ~b - 1; // ' ~ ' is a complement operator.
 	}
 
 	public static void main(String[] args) {
