@@ -2,10 +2,12 @@ package com;
 
 public class AddWithoutPlusOp {
 
-	public static int add(int a, int b) {
+	// Function to add which takes two parameters
+	public static int add(int a, int b) { 
 		return a - ~b - 1; // ' ~ ' is a complement operator.
 	}
 
+	// Main function
 	public static void main(String[] args) {
 
 		int result = 0;
